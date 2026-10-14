@@ -28,11 +28,7 @@ int main() {
     // check if the users guess is correct
     if (guessNumber == randomNumber) {
         std::cout << "your guessed correctly!!";
-    }
-
-
-    // check if the user guess is wrong
-    if (guessNumber != randomNumber) {
+    } else {
         std::cout << "you guessed wrong!!" << std::endl;
         std::cout << "The correct answer was : " << randomNumber << std::endl;
     }
